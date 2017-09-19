@@ -1,0 +1,26 @@
+{
+  "name": "next-underscored",
+  "description": "Converts a camelized or dasherized string into an underscored one.",
+  "main": "dist/next-underscored.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-underscored",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ]
+}
