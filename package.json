@@ -1,6 +1,6 @@
 {
   "name": "next-underscored",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Converts a camelized or dasherized string into an underscored one.",
   "homepage": "https://github.com/afeiship/next-underscored",
   "author": {
