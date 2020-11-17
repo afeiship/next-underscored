@@ -1,15 +1,6 @@
-/*!
- * name: @feizheng/next-underscored
- * url: https://github.com/afeiship/next-underscored
- * version: 1.0.0
- * date: 2019-11-23T13:57:57.063Z
- * license: MIT
- */
-
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
-
+  var nx = global.nx || require('@jswork/next');
   var UNDERLINE = '_';
   var dasherizeRE1 = /::/g,
     dasherizeRE2 = /([A-Z]+)([A-Z][a-z])/g,
@@ -18,7 +9,8 @@
     dasherizeRE5 = /\//g,
     dasherizeREPLACER = '$1-$2';
 
-  nx.underscored = function(inStr) {
+
+  nx.underscored = function (inStr) {
     return inStr
       .replace(dasherizeRE1, '/')
       .replace(dasherizeRE5, UNDERLINE)
@@ -32,5 +24,3 @@
     module.exports = nx.underscored;
   }
 })();
-
-//# sourceMappingURL=next-underscored.js.map
