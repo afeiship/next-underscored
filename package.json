@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-underscored",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts a camelized or dasherized string into an underscored one.",
   "homepage": "https://js.work",
   "author": {
@@ -34,10 +34,23 @@
     "uglify-save-license": "^0.4.1"
   },
   "babel": {
-    "presets": [["@babel/preset-env"]]
+    "presets": [
+      [
+        "@babel/preset-env"
+      ]
+    ]
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "string",
+    "underscored",
+    "underline",
+    "next",
+    "lang",
+    "lodash",
+    "case"
+  ]
 }
